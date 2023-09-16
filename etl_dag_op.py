@@ -21,14 +21,14 @@ import logging
 
 
 GOOGLE_CONN_ID = "google_cloud_default"
-PROJECT_ID = "swift-impulse-338203"
+PROJECT_ID = ""
 OBJECT_NAME = "uber_data.csv"
 
 BUCKET_NAME = "uber-analysis-bucket"
 # STAGING_DATASET = "uber_staging_dataset"
 DATASET = "uber_dataset"
 LOCATION = "us-central1"
-gcs_credentials_file_path = "/opt/airflow/dags/swift-impulse-338203-ed5735a72d3c.json"
+gcs_credentials_file_path = ""
 
 
 default_args = {
